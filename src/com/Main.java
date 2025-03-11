@@ -12,6 +12,12 @@ public class Main {
 		author.setName("J.K.Rowling");
 		book.setAuthor(author);
 		System.out.println(book);
+		Book book1=new Book();
+		book1.setTitle("Harry Potter Book 2");
+		author=new Author();
+		author.setName("J.K.Rowling");
+		book1.setAuthor(author);
+		System.out.println(book1);
 	}
 
 }
